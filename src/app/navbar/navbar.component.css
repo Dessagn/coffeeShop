@@ -1,0 +1,39 @@
+.navbar-brand{
+    padding-right: 2px;
+    padding-left: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 800;
+    height: 50px;
+    font-size: 40px;
+    font-family: 'Monoton', 'Lora' !important;
+}
+.navbar{
+    background-color: orange;
+    margin-bottom: 0;
+}
+
+.navbar-nav>li>a{
+    color: #000;
+    
+}
+.navbar-nav{
+    float: right;
+    margin-right: 20px;
+}
+.nav li a {
+    text-transform: uppercase;
+   
+    letter-spacing: 1px;
+    font-family: 'Monoton', 'Lora' !important;
+}
+.nav>li:hover {
+    background-color: darkorange;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+    font-size: 1.3em;
+}
+.navbar-nav>li.active {
+    background-color: darkorange;
+    font-size: 1.3em;
+}

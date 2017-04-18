@@ -1,0 +1,52 @@
+  /*******************FOOTER STYLE*****************************/
+
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+    color: #FFF;
+}
+
+.panel-footer,
+div.row {
+    padding-bottom: 35px;
+}
+
+#hours,
+#address {
+    line-height: 2;
+}
+
+#hours > span,
+#address >span,
+#testimonials > span {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    font-style: bold;
+}
+
+#hours > hr,
+#address >hr,
+
+#address p {
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8;
+}
+
+#map {
+    margin-top: 1px;
+}
+
+.text-center {
+    margin-top: 30px;
+}
+
+.text-center hr {
+    width: 50%;
+    background-color: #444444;
+    height: 1px;
+    border: 0;
+}
